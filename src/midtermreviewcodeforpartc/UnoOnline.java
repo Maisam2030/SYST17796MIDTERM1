@@ -17,7 +17,7 @@ import java.util.Scanner;
 public class UnoOnline 
 {
     private User users[] = new User[100];//room for 100 online players!
-     
+     private UserNameValidator namechecker = new UserNameValidator();
     /**
      * Main method with call to private run method, to encapsulate our
      * main functionality.
